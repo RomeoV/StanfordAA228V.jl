@@ -19,7 +19,6 @@ makedocs(
         "Home" => "index.md",
     ],
     doctest = true,  # Enable doctests
-    warnonly = [:doctest],  # Don't fail on doctest errors, just warn
     plugins = [bib, links]
 )
 
